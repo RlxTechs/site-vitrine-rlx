@@ -3,98 +3,326 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RLX Techs | Développeur & Créateur de solutions digitales</title>
+  <title>RLX Techs | Portfolio, CV, Projets & Game Lab</title>
+  <meta name="description" content="Portfolio officiel de RLX Techs : développeur de solutions business, ERP, sites web, automatisations, apps Windows et mini-jeux 2D." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+
   <header class="navbar">
-    <div class="logo">RLX<span>Techs</span></div>
-    <nav>
+    <a href="#accueil" class="logo">RLX<span>Techs</span></a>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+
+    <nav id="navMenu">
       <a href="#accueil">Accueil</a>
-      <a href="#apropos">À propos</a>
-      <a href="#competences">Compétences</a>
-      <a href="#projets">Projets</a>
+      <a href="#cv">CV</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#logiciels">Solutions</a>
+      <a href="#games">Game Lab</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <section id="accueil" class="hero">
-    <div class="hero-content">
-      <p class="badge">Développeur • Automatisation • Business Digital</p>
-      <h1>Je crée des solutions digitales utiles pour les boutiques, entreprises et entrepreneurs.</h1>
-      <p class="description">
-        Sites web, outils de gestion, ERP, catalogues WhatsApp, automatisations et applications locales pour aider les business à vendre, gérer et évoluer.
-      </p>
-      <div class="buttons">
-        <a href="#projets" class="btn primary">Voir mes projets</a>
-        <a href="#contact" class="btn secondary">Me contacter</a>
-      </div>
-    </div>
-  </section>
+  <main>
+    <section id="accueil" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Développeur • Automatisation • Business Digital • Game Lab</p>
+        <h1>Je transforme les idées business en sites, logiciels, ERP et expériences interactives.</h1>
+        <p class="hero-desc">
+          Je suis RLX / RlxTechs. Je crée des outils pratiques pour vendre, gérer, automatiser et présenter des projets :
+          sites web, boutiques WhatsApp, ERP, applications Windows, outils de stock, interfaces IA locales et mini-jeux 2D.
+        </p>
 
-  <section id="apropos" class="section">
-    <h2>À propos</h2>
-    <p>
-      Je suis RLX, développeur orienté solutions business. Mon objectif est simple :
-      transformer les besoins du terrain en outils digitaux simples, rapides et efficaces.
-      Je travaille sur des projets comme des boutiques en ligne, des ERP, des outils de stock,
-      des systèmes de commande WhatsApp et des applications Windows.
-    </p>
-  </section>
+        <div class="hero-actions">
+          <a href="#portfolio" class="btn primary">Voir mon portfolio</a>
+          <a href="#games" class="btn secondary">Tester mes jeux 2D</a>
+          <a href="https://github.com/RlxTechs" target="_blank" class="btn ghost">GitHub</a>
+        </div>
 
-  <section id="competences" class="section">
-    <h2>Compétences</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>Développement Web</h3>
-        <p>HTML, CSS, JavaScript, sites vitrines, landing pages et interfaces modernes.</p>
+        <div class="hero-stats">
+          <div>
+            <strong>10+</strong>
+            <span>types de projets</span>
+          </div>
+          <div>
+            <strong>6</strong>
+            <span>mini-jeux 2D</span>
+          </div>
+          <div>
+            <strong>100%</strong>
+            <span>codé en HTML/CSS/JS</span>
+          </div>
+        </div>
       </div>
-      <div class="card">
-        <h3>Business Tools</h3>
-        <p>Gestion de stock, facturation, caisse, dettes, ventes et tableaux de bord.</p>
-      </div>
-      <div class="card">
-        <h3>Automatisation</h3>
-        <p>Scripts PowerShell, Python, automatisation de tâches et outils locaux.</p>
-      </div>
-      <div class="card">
-        <h3>Marketing Digital</h3>
-        <p>Pages de vente, catalogues WhatsApp, contenus publicitaires et tunnels simples.</p>
-      </div>
-    </div>
-  </section>
 
-  <section id="projets" class="section">
-    <h2>Projets</h2>
-    <div class="grid">
-      <div class="project-card">
-        <h3>Boutique WhatsApp</h3>
-        <p>Mini catalogue produit avec bouton de commande directe sur WhatsApp.</p>
-        <span>HTML • CSS • JS</span>
-      </div>
-      <div class="project-card">
-        <h3>Gestion Stock Local</h3>
-        <p>Application simple pour gérer les produits, les ventes et le stock.</p>
-        <span>JavaScript • LocalStorage</span>
-      </div>
-      <div class="project-card">
-        <h3>ERP Boutique</h3>
-        <p>Prototype d’outil de gestion pour boutique : caisse, stock, dettes et factures.</p>
-        <span>Web App • Business</span>
-      </div>
-    </div>
-  </section>
+      <div class="hero-card">
+        <div class="terminal-bar">
+          <span></span><span></span><span></span>
+        </div>
+        <pre><code>PS C:\Users\Admin\Desktop\MesProjets&gt;
+git status
+git add .
+git commit -m "Build business tools"
+git push
 
-  <section id="contact" class="section contact">
-    <h2>Contact</h2>
-    <p>Tu veux travailler avec moi ou voir mes projets ?</p>
-    <a href="https://github.com/RlxTechs" target="_blank" class="btn primary">Voir mon GitHub</a>
-  </section>
+// RlxTechs online 🚀</code></pre>
+      </div>
+    </section>
+
+    <section class="section identity">
+      <div class="section-title">
+        <p class="eyebrow">Qui je suis</p>
+        <h2>Profil rapide</h2>
+      </div>
+
+      <div class="identity-grid">
+        <article class="glass-card">
+          <h3>RLX / RlxTechs</h3>
+          <p>
+            Développeur orienté terrain, business et solutions utiles. Mon objectif est de créer des outils simples,
+            modernes et puissants pour les boutiques, entrepreneurs, restaurants, commerces et petites entreprises.
+          </p>
+        </article>
+
+        <article class="glass-card">
+          <h3>Ce que je construis</h3>
+          <p>
+            Sites vitrines, catalogues WhatsApp, ERP, outils de gestion de stock, systèmes de facturation,
+            applications Windows, automatisations PowerShell/Python et expériences interactives.
+          </p>
+        </article>
+
+        <article class="glass-card">
+          <h3>Ma vision</h3>
+          <p>
+            Faire le lien entre le terrain commercial et les solutions digitales : vendre mieux, gérer mieux,
+            automatiser plus vite et rendre les outils accessibles aux vrais utilisateurs.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="cv" class="section">
+      <div class="section-title">
+        <p class="eyebrow">Parcours</p>
+        <h2>CV professionnel</h2>
+      </div>
+
+      <div class="cv-layout">
+        <aside class="cv-card">
+          <h3>BOSSEDE Mardochée Mahugnon Bienvenu</h3>
+          <p class="muted">Développeur de solutions business & outils digitaux</p>
+
+          <div class="cv-tags">
+            <span>HTML/CSS/JS</span>
+            <span>Python</span>
+            <span>PowerShell</span>
+            <span>ERP</span>
+            <span>Automatisation</span>
+            <span>GitHub</span>
+          </div>
+
+          <a class="btn primary full" href="cv.html">Ouvrir le CV complet</a>
+          <button class="btn secondary full" onclick="window.print()">Imprimer / PDF</button>
+        </aside>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="year">2015</span>
+            <div>
+              <h3>Première expérience commerciale</h3>
+              <p><strong>Supermarché SIBY, Porto-Novo</strong></p>
+              <p>Caisse, vente, relation client, gestion de produits et contact direct avec le terrain.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <span class="year">2019 - 2020</span>
+            <div>
+              <h3>Gestion, logistique et support</h3>
+              <p><strong>CONACCE CHAPLAINS, Mali</strong></p>
+              <p>Réapprovisionnement, vérification des commandes, suivi des marchandises et soutien à l’équipe technique.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <span class="year">2022 - 2024</span>
+            <div>
+              <h3>Projets digitaux et formation supérieure</h3>
+              <p><strong>Sénégal</strong></p>
+              <p>Développement de compétences en informatique, entrepreneuriat, automatisation, sites web et e-commerce.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <span class="year">Aujourd’hui</span>
+            <div>
+              <h3>Développeur de solutions business</h3>
+              <p><strong>Brazzaville, Congo</strong></p>
+              <p>Création d’ERP, boutiques en ligne, outils de gestion, assistants IA, systèmes WhatsApp commerce et outils Windows.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section">
+      <div class="section-title">
+        <p class="eyebrow">Portfolio</p>
+        <h2>Mes projets et domaines</h2>
+      </div>
+
+      <div class="filter-row">
+        <button class="chip active" data-filter="all">Tout</button>
+        <button class="chip" data-filter="web">Sites web</button>
+        <button class="chip" data-filter="business">Business</button>
+        <button class="chip" data-filter="app">Applications</button>
+        <button class="chip" data-filter="ai">IA / Automation</button>
+        <button class="chip" data-filter="game">Jeux</button>
+      </div>
+
+      <div class="portfolio-grid" id="portfolioGrid">
+        <article class="project-card" data-category="web business">
+          <span class="project-type">Web • Commerce</span>
+          <h3>Boutique WhatsApp</h3>
+          <p>Catalogue produits avec commande directe par WhatsApp, zones de livraison et expérience mobile-first.</p>
+          <a href="https://github.com/RlxTechs" target="_blank">Voir sur GitHub →</a>
+        </article>
+
+        <article class="project-card" data-category="business app">
+          <span class="project-type">ERP • Stock</span>
+          <h3>Gestion Stock Local</h3>
+          <p>Outil de stock, ventes, caisse, historique et suivi des produits pour boutiques.</p>
+          <a href="https://github.com/RlxTechs" target="_blank">Voir sur GitHub →</a>
+        </article>
+
+        <article class="project-card" data-category="business ai app">
+          <span class="project-type">ERP • IA locale</span>
+          <h3>BoutiqueMaster AI</h3>
+          <p>Concept d’ERP offline avec assistant local, règles métiers, caisse, dettes, factures et audit.</p>
+          <a href="https://github.com/RlxTechs" target="_blank">Voir sur GitHub →</a>
+        </article>
+
+        <article class="project-card" data-category="app">
+          <span class="project-type">Windows • Outil</span>
+          <h3>App2Windows Universal</h3>
+          <p>Convertisseur de projets web en applications Windows avec launcher et expérience simplifiée.</p>
+          <a href="https://github.com/RlxTechs" target="_blank">Voir sur GitHub →</a>
+        </article>
+
+        <article class="project-card" data-category="web business">
+          <span class="project-type">Landing page</span>
+          <h3>Sites vitrines business</h3>
+          <p>Pages modernes pour présenter une marque, convertir des visiteurs et générer des contacts.</p>
+          <a href="https://github.com/RlxTechs" target="_blank">Voir sur GitHub →</a>
+        </article>
+
+        <article class="project-card" data-category="ai">
+          <span class="project-type">Automation</span>
+          <h3>Assistant WhatsApp Commerce</h3>
+          <p>Réponses automatiques, catalogue, messages de vente et logique de livraison pour business local.</p>
+          <a href="https://github.com/RlxTechs" target="_blank">Voir sur GitHub →</a>
+        </article>
+
+        <article class="project-card" data-category="game">
+          <span class="project-type">Game Lab</span>
+          <h3>Mini-jeux 2D</h3>
+          <p>Collection de prototypes 2D originaux : runner, arène cellulaire, sandbox, battle, shooter et drift.</p>
+          <a href="#games">Jouer maintenant →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="logiciels" class="section">
+      <div class="section-title">
+        <p class="eyebrow">Solutions</p>
+        <h2>Ce que je peux livrer</h2>
+      </div>
+
+      <div class="solution-grid">
+        <div class="solution-card">
+          <h3>Sites & Landing Pages</h3>
+          <p>Sites vitrines, pages de vente, portfolios, catalogues, interfaces mobiles et pages marketing.</p>
+        </div>
+        <div class="solution-card">
+          <h3>Logiciels de gestion</h3>
+          <p>Stock, caisse, factures, pro formas, clients, fournisseurs, dettes, dépenses et tableaux de bord.</p>
+        </div>
+        <div class="solution-card">
+          <h3>Applications Windows</h3>
+          <p>Launchers, outils locaux, apps offline, installateurs et interfaces simples pour utilisateurs non-techniques.</p>
+        </div>
+        <div class="solution-card">
+          <h3>Automatisations</h3>
+          <p>Scripts PowerShell/Python, génération de fichiers, traitement de données et assistants de productivité.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="games" class="section game-section">
+      <div class="section-title">
+        <p class="eyebrow">Game Lab</p>
+        <h2>Mini-jeux 2D jouables</h2>
+        <p class="section-subtitle">
+          Prototypes originaux inspirés par des mécaniques populaires, sans copier les marques ni les univers protégés.
+        </p>
+      </div>
+
+      <div class="game-layout">
+        <aside class="game-list">
+          <button class="game-tab active" data-game="runner">Neon Runner</button>
+          <button class="game-tab" data-game="cell">Cell Arena</button>
+          <button class="game-tab" data-game="blocks">Block World</button>
+          <button class="game-tab" data-game="storm">Storm Battle</button>
+          <button class="game-tab" data-game="ops">Ops Target</button>
+          <button class="game-tab" data-game="drift">Drift Dash</button>
+        </aside>
+
+        <div class="game-panel">
+          <div class="game-top">
+            <div>
+              <h3 id="gameTitle">Neon Runner</h3>
+              <p id="gameHelp">Espace / Flèche haut pour sauter. Évite les obstacles et récupère les pièces.</p>
+            </div>
+            <div class="game-score">
+              <span id="gameScore">Score : 0</span>
+              <button id="restartGame" class="btn small">Rejouer</button>
+            </div>
+          </div>
+
+          <canvas id="gameCanvas" width="900" height="520"></canvas>
+
+          <div class="game-controls">
+            <span>PC : ZQSD / WASD, flèches, espace, souris selon le jeu.</span>
+            <span>Mobile : touche l’écran ou utilise les boutons du navigateur si disponibles.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-title center">
+        <p class="eyebrow">Contact</p>
+        <h2>Travaillons sur quelque chose d’utile</h2>
+        <p class="section-subtitle">
+          Tu peux retrouver mes projets, suivre mon évolution et voir mes prochains outils sur GitHub.
+        </p>
+      </div>
+
+      <div class="contact-actions">
+        <a class="btn primary" href="https://github.com/RlxTechs" target="_blank">GitHub : RlxTechs</a>
+        <a class="btn secondary" href="mailto:bossedemardochee@gmail.com">bossedemardochee@gmail.com</a>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <p>© 2026 RLX Techs — Créé avec PowerShell, Git et GitHub.</p>
+    <p>© 2026 RLX Techs — Portfolio, CV, solutions business et Game Lab.</p>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
